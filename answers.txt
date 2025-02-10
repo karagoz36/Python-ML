@@ -1,0 +1,15 @@
+conda activate 42AI-$USER
+conda deactivate
+conda remove --name 42AI-tkaragoz --all
+
+
+pip list
+conda list
+pip show numpy
+pip uninstall numpy
+conda remove numpy
+pip install numpy
+conda install numpy
+
+pip freeze > requirements.txt
+pip install -r requirements.txt
